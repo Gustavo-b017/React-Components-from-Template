@@ -5,7 +5,7 @@ import {Outlet} from 'react-router-dom';
 function App() {
   return (
         <>
-          <Header/>
+          <Header titulo="Sextou!" identificador='1'/>
           <Outlet/>
           <Footer />
         </>
